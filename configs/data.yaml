@@ -1,0 +1,23 @@
+# YOLO dataset configuration for VinBigData Chest X-ray Abnormalities Detection
+# Paths will be created by scripts/prepare_vinbigdata_yolo.py
+path: data/vinbigdata_yolo
+train: images/train
+val: images/val
+
+default_imgsz: 1024
+nc: 14
+names:
+  - Aortic enlargement
+  - Atelectasis
+  - Calcification
+  - Cardiomegaly
+  - Consolidation
+  - ILD
+  - Infiltration
+  - Lung Opacity
+  - Nodule/Mass
+  - Other lesion
+  - Pleural effusion
+  - Pleural thickening
+  - Pneumothorax
+  - Pulmonary fibrosis
