@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+.env.*
+*.env
+
+# Data and models
+data/
+models/
+runs/
+
+# Kaggle creds
+kaggle.json
+.kaggle/
+
+# OS
+.DS_Store
+Thumbs.db
